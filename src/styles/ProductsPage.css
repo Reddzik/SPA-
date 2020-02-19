@@ -1,0 +1,21 @@
+.products h3 {
+  margin-bottom: 20px;
+}
+
+.products ul {
+  list-style-type: none;
+  padding-left: 30px;
+}
+.products li {
+  width: 10%;
+  margin-bottom: 10px;
+}
+.products a {
+  display: block;
+  text-decoration: none;
+  color: black;
+  transition: 0.2s;
+}
+.products a:hover {
+  transform: translateX(5%);
+}
