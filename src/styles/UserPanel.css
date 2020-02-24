@@ -1,0 +1,29 @@
+.user_data {
+  min-height: 20vh;
+}
+.user_data h2 {
+  margin-bottom: 15px;
+  border-bottom: 2px solid black;
+}
+.user_data p {
+  padding: 5px 0;
+}
+.actions a {
+  display: block;
+  width: 200px;
+  margin: 15px;
+  padding: 7px 12px;
+  color: black;
+  text-decoration: none;
+  font-size: 17px;
+  background-color: #fff;
+  border: 2px solid black;
+  border-radius: 15%;
+  box-shadow: black 2px 2px 2px;
+  transition: 0.2s;
+}
+.actions a:hover {
+  background-color: #000;
+  color: yellow;
+  cursor: pointer;
+}
